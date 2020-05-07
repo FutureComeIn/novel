@@ -1,0 +1,14 @@
+
+spring:
+    datasource:
+        name: source
+        url: jdbc:mysql://127.0.0.1:3306/xiaoshuo?serverTimezone=UTC&useUnicode=true&characterEncoding=utf-8
+        username: root
+        password: 123456
+    mvc:
+        view:
+            prefix: /
+            suffix: .jsp
+mybatis: 
+  mapperLocations: classpath:com/yxw/xiaoshuospring/mappers/*.xml
+  typeAliasesPackage: com.yxw.xiaoshuospring
